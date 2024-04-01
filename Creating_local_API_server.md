@@ -21,10 +21,12 @@ json-server students.json # Run JSON Server with the local file students.json
 
 # Postman
 Get - http://localhost:3000
-![img_2.png](img_2.png)
+![image](https://github.com/Keeriiim/API_DEV/assets/117115289/9f80e97a-059c-4093-b24f-2c626c0ccc11)
+
 
 Get - http://localhost:3000/students
-![img_3.png](img_3.png)
+![image](https://github.com/Keeriiim/API_DEV/assets/117115289/3e81fffb-70df-4464-af65-09d20e88aa5d)
+
 
 
 # Tools
@@ -43,7 +45,8 @@ There you create the name of the global variable and set the value to an adress
 }
 ```
 
-![img_4.png](img_4.png)
+![image](https://github.com/Keeriiim/API_DEV/assets/117115289/b64d99dd-27f5-4150-8bf2-39e6ec1b4e4f)
+
 
 ## Collection variable 
 Accessable only in the specified collection
@@ -54,7 +57,8 @@ Accessable only in the specified collection
 }
 ```
 
-![img_5.png](img_5.png)
+![image](https://github.com/Keeriiim/API_DEV/assets/117115289/9bae7092-166c-4292-949a-84cf3433e678)
+
 
 ## Environment variable
 Accessable in all collections but only in the specified environment
@@ -64,6 +68,9 @@ Accessable in all collections but only in the specified environment
     GET {{[collection_name]}}/api/v1 # Example
 }
 ```
+
+![image](https://github.com/Keeriiim/API_DEV/assets/117115289/a3fc0d80-da8b-41a7-8892-ca820d07c7f5)
+
 
 
 # Tests
@@ -84,7 +91,8 @@ Accessable in all collections but only in the specified environment
 }
 ```
 
-![img_1.png](img_1.png)  
+![image](https://github.com/Keeriiim/API_DEV/assets/117115289/a11d3e9d-16c2-4f2d-ab6b-34224787db10)
+ 
 
 ## Headers
 ```bash
