@@ -20,11 +20,11 @@ json-server students.json # Run JSON Server with the local file students.json
 ```
 
 # Postman
-Get - http://localhost:3000
+Get - http://localhost:3000  
 ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/9f80e97a-059c-4093-b24f-2c626c0ccc11)
 
 
-Get - http://localhost:3000/students
+Get - http://localhost:3000/students  
 ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/3e81fffb-70df-4464-af65-09d20e88aa5d)
 
 
