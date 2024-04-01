@@ -65,11 +65,25 @@ Accessable in all collections but only in the specified environment
 
 ```bash
 {
-    GET {{[collection_name]}}/api/v1 # Example
+    GET {{[env_name]}}/api/v1 # Example, in this case env_name is localhost
 }
 ```
 
-![image](https://github.com/Keeriiim/API_DEV/assets/117115289/a3fc0d80-da8b-41a7-8892-ca820d07c7f5)
+![image](https://github.com/Keeriiim/API_DEV/assets/117115289/a3fc0d80-da8b-41a7-8892-ca820d07c7f5)  
+![image](https://github.com/Keeriiim/API_DEV/assets/117115289/79e21d38-8f9e-4df8-917c-918587ffc95a)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
