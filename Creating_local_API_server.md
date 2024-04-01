@@ -74,7 +74,37 @@ Accessable in all collections but only in the specified environment
 
 
 
+## Local variable
+Accessable only within request
 
+```bash
+{
+    // Set local variable for a specific endpoint
+      pm.variables.set("test","/api/users?page=2")
+}
+```
+![image](https://github.com/Keeriiim/API_DEV/assets/117115289/508c0ed9-7bb8-4cb1-a5d0-bfafc9484082)
+
+
+## PreScript
+By prerunnnig this script you dont need to save variables using the GUI, they will be stored from the script.
+To delete, use .unset
+```bash
+{
+    // Set local variable for a specific endpoint
+       pm.variables.set("test","/api/users?page=2")
+
+   // Set global variable for a specific endpoint
+      pm.globals.set("global","/api/users?page=2")
+
+   // Set environmental variable for a specific endpoint
+      pm.environment.set("env","/api/users?page=2")
+
+   // Set collection variable for a specific endpoint
+      pm.collectionVariables.set("env","/api/users?page=2")
+}
+```
+![image](https://github.com/Keeriiim/API_DEV/assets/117115289/7eab9885-8911-4adb-97ca-30f5e5ec1367)
 
 
 
