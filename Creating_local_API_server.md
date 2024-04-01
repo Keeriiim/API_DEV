@@ -2,6 +2,7 @@
 
 - [Node](#node)
 - [Tools](#tools)
+- [Environment](#environment)
 - [Tests](#tests)
 
 ## Node
@@ -30,6 +31,39 @@ Get - http://localhost:3000/students
 https://jsonpathfinder.com/ # JSON Pathfinder
 
 https://jsonpath.com/ # JSON Path
+
+# Environment
+## Global variable
+You can create a global variable in Postman by clicking on the eye icon in the top right corner of the Postman window.
+There you create the name of the global variable and set the value to an adress
+
+```bash
+{
+   GET {{[global_name]}}/api/v1 # Example
+}
+```
+
+![img_4.png](img_4.png)
+
+## Collection variable 
+Accessable only in the specified collection
+
+```bash
+{
+    GET {{[collection_name]}}/api/v1 # Example
+}
+```
+
+![img_5.png](img_5.png)
+
+## Environment variable
+Accessable in all collections but only in the specified environment
+
+```bash
+{
+    GET {{[collection_name]}}/api/v1 # Example
+}
+```
 
 
 # Tests
