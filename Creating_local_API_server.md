@@ -4,6 +4,7 @@
 - [Tools](#tools)
 - [Environment](#environment)
 - [Tests](#tests)
+- [Authentication](#authentication)
 
 ## Node
 * Node.js is an open-source, cross-platform, JavaScript runtime environment that executes JavaScript code outside a web browser.
@@ -203,3 +204,13 @@ To delete, use .unset
     })
 }
 ```
+
+# Authentication
+## JWT
+You can add a token for all runs.
+![image](https://github.com/Keeriiim/API_DEV/assets/117115289/89047399-758f-497e-a4a0-20cb825589c9)  
+![image](https://github.com/Keeriiim/API_DEV/assets/117115289/dfb6461f-5eb9-444a-bc59-9bdf48a26ea3)  
+
+## 
+
+
