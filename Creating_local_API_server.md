@@ -216,13 +216,24 @@ You can add a token for all runs.
 
 # File upload
 ## CSV
+Iterations - Specify how many rows you want to loop through
 ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/1838461d-d176-40b6-829c-a6725833fcc6)
 
 IMPORTANT! - Postman has a default comma separator !
 If you don't have comma separator (delimiter) as standard. Your textfile in the preview will not look like this. 
+```bash
+BookID,CustomerName
+1,k
+2,e
+3,r
+4,i
+5,m
+```
 1. Easy way to fix is to open the .csv file in a text editor and exchange the ; to ,
 2. If working with big data, import the file using "from" in excell, then in the wizard change delimiter to comma
 ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/1d87ae0e-8f24-4f33-93bd-2f89b9378f0b)
+![image](https://github.com/Keeriiim/API_DEV/assets/117115289/96f3e37e-c919-45a9-b2da-aeba8f925bf2)
+
 
 
 
