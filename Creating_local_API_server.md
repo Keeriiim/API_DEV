@@ -1,4 +1,23 @@
-# Node
+# REST
+REST (Representational State Transfer):
+REST is an architectural style for designing networked applications. It is based on the principles of a client-server architecture and the idea of treating resources as representations that can be manipulated using standard operations.
+
+Characteristics of REST:
+Resource-Based: REST focuses on resources, which are identified by URIs (Uniform Resource Identifiers). Resources can be any object or entity, such as a user, product, or service.
+
+Stateless: REST is stateless, meaning that each request from a client to the server must contain all the information necessary to understand and fulfill the request. The server does not store any client state.
+
+CRUD Operations: RESTful services typically use standard HTTP methods for CRUD (Create, Read, Update, Delete) operations:
+
+GET: Retrieve a resource.
+POST: Create a new resource.
+PUT: Update an existing resource.
+DELETE: Delete a resource.
+Representation: Resources are represented in various formats such as JSON (JavaScript Object Notation) or XML. The client and server can negotiate the representation format using content negotiation.
+
+Uniform Interface: RESTful services have a uniform interface, which simplifies client-server interactions. This includes self-descriptive messages, hypermedia as the engine of application state (HATEOAS), and a separation of concerns between client and server.
+
+Scalability: REST is well-suited for scalable systems due to its stateless nature and cacheability of responses.
 
 - [Node](#node)
 - [Tools](#tools)
