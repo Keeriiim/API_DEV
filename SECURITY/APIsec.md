@@ -1,7 +1,8 @@
 # API Security
 - Resources:
   [Owasp cheat sheet](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html)
-  [CWE](https://cwe.mitre.org/documents/cwe_usage/guidance.html)
+  [CWE](https://cwe.mitre.org/documents/cwe_usage/guidance.html)  
+  [Automated Threats](https://owasp.org/www-project-automated-threats-to-web-applications/)  
   
 - [Vulnerabilites](#vulnerabilities)
 - [Real Word Examples](#examples)
@@ -21,7 +22,7 @@ The OWASP (Open Web Application Security Project) 10 most common API vulnerabili
    ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/05846179-db88-4c9a-99ac-e3dbec60fe67)  
 
 3. Broken Object Property Level Authorization: 
-   Excessive Data Exposure: This risk arises when APIs expose sensitive information such as PII (Personally Identifiable Information), credentials, or other critical data. Attackers can exploit this by intercepting the data in transit or by accessing it through insufficiently protected endpoints.
+   Excessive Data Exposure: This risk arises when APIs expose sensitive information such as PII (Personally Identifiable Information), credentials, or other critical data. Attackers can exploit this by intercepting the data in transit or by accessing it through insufficiently protected endpoints.  
    ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/1d81072e-8182-4dff-973b-3a2e3fe29141)  
 
 4. Unrestired Resource Consuption:  
@@ -38,23 +39,39 @@ The OWASP (Open Web Application Security Project) 10 most common API vulnerabili
 
 6. Unrestricted Access to Sensitive Buisness Flows:  
    ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/e16ef6cf-8cb3-4274-b558-9e211ac9fa52)  
+   ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/db0c14bf-4509-4a96-ae72-aadb32cf9823)  
+
 
 7. Server side Request Forgery:  
    ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/6c78e95f-7707-4792-9359-e56e36c6be55)  
    
 8. Security Misconfiguration: Improperly configured APIs can lead to a range of vulnerabilities. This includes using default settings, leaving debug flags on, or exposing sensitive information through error messages.  
+   Automated scanners: Burp Suite, Nessus, Qualys, OWASP ZAP, and Nikto will automatically check responses from the web server to determine version information, headers, cookies, transit encryption configuration, and parameters to see if expected security measures are missing.  
    ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/2e605ce6-cafb-4431-95a7-4f2972046710)  
+   ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/ce48d686-7f14-4638-ad93-fb01318f3f31)  
 
-9. Improper Inventory(Assets) Management: This involves not properly tracking and managing API endpoints and their associated documentation. Attackers can exploit outdated or deprecated APIs that are still active.  
+   ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/fae1ecc1-4b29-43ce-b210-01bd0ab5cf43)  
+   ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/d69d55cf-8433-4f9f-b77f-1ddb56f3286e)  
+   ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/8f418ef1-474a-4133-9021-30042e379b07)  
+   ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/cb53cf5f-379f-4799-8c5e-cf19eecd816a)
+
+   
+
+
+
+
+  
+
+10. Improper Inventory(Assets) Management: This involves not properly tracking and managing API endpoints and their associated documentation. Attackers can exploit outdated or deprecated APIs that are still active.  
    ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/834e8a57-be04-4aaa-a0e2-85ea55f0bce6)  
 
-10. Unsafe Consumption of API's:  
+11. Unsafe Consumption of API's:  
     ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/c26bab72-bdca-4593-a9f1-b0125329e502)  
 
-11. Injection: APIs that accept user input without proper validation and sanitization are vulnerable to injection attacks such as SQL injection, NoSQL injection, and command injection.
-12. Improper Inventory(Assets) Management: This involves not properly tracking and managing API endpoints and their associated documentation. Attackers can exploit outdated or deprecated APIs that are still active.
-13. Insufficient Logging & Monitoring: Inadequate logging and monitoring make it difficult to detect unauthorized access or abnormal behavior. This can delay incident response and increase the impact of a successful attack.
-14. Insecure Serialization: APIs that use insecure serialization methods are vulnerable to attacks such as deserialization of untrusted data, leading to remote code execution.
+12. Injection: APIs that accept user input without proper validation and sanitization are vulnerable to injection attacks such as SQL injection, NoSQL injection, and command injection.
+13. Improper Inventory(Assets) Management: This involves not properly tracking and managing API endpoints and their associated documentation. Attackers can exploit outdated or deprecated APIs that are still active.
+14. Insufficient Logging & Monitoring: Inadequate logging and monitoring make it difficult to detect unauthorized access or abnormal behavior. This can delay incident response and increase the impact of a successful attack.
+15. Insecure Serialization: APIs that use insecure serialization methods are vulnerable to attacks such as deserialization of untrusted data, leading to remote code execution.
 
 
 
