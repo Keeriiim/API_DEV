@@ -55,7 +55,9 @@ The OWASP (Open Web Application Security Project) 10 most common API vulnerabili
 
 
 
-## Extras:
+# Extras:
+## BOLA  
+
 1. Weak Password Policy
 ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/b63183ce-64e2-44bf-9017-c91a420f42c3)
 
@@ -75,6 +77,20 @@ The OWASP (Open Web Application Security Project) 10 most common API vulnerabili
 ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/e9a41986-6017-4b42-9534-c4241adea403)  
 ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/574393a8-2875-42c6-9a18-ae29d0c59fd1)  
 ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/e6db24fd-a3c4-47f7-818e-2be591ea81f4)  
+
+## BOPLA - Broken Object Property Level Authorization  
+![image](https://github.com/Keeriiim/API_DEV/assets/117115289/488188ee-66d7-4382-b94b-ffb55777ae2a)  
+![image](https://github.com/Keeriiim/API_DEV/assets/117115289/453ac6eb-b408-4642-81da-ff4700c5d10c)  
+![image](https://github.com/Keeriiim/API_DEV/assets/117115289/8641c9fb-9b8e-4612-a068-9bc36b300e73)  
+![image](https://github.com/Keeriiim/API_DEV/assets/117115289/ae116dd5-5e8c-4ccb-a604-90c805eedd62)  
+![image](https://github.com/Keeriiim/API_DEV/assets/117115289/622fa537-dbac-498e-af1b-ec77ab81e2b9)  
+
+![image](https://github.com/Keeriiim/API_DEV/assets/117115289/558847f8-7f4e-474a-a8f5-518159549cd7)
+
+
+
+
+
 
 
 
