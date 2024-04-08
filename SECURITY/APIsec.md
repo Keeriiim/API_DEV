@@ -26,10 +26,15 @@ The OWASP (Open Web Application Security Project) 10 most common API vulnerabili
 
 4. Unrestired Resource Consuption:  
   Lack of Rate Limiting: APIs that lack rate limiting controls are susceptible to abuse by attackers who can flood the API with requests, leading to denial of service (DoS) or brute force attacks.  
+  Every API request has techincal & financial cost. Lack of rate increases risk of: denial of service, unnecessary cost, degradation of service to users.
   ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/4c82c730-a48b-4102-be13-d151ca6c933c)  
+  ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/c6090380-a9e4-4130-a5db-e05d4b4727ec)
 
-5. Broken Function Level Authorization: Similar to broken object level authorization, this risk occurs when APIs do not properly check whether the user has the necessary permissions to perform a specific action, allowing unauthorized actions.  
+
+5. Broken Function Level Authorization (BAFLA): Similar to broken object level authorization, this risk occurs when APIs do not properly check whether the user has the necessary permissions to perform a specific action, allowing unauthorized actions.  
     ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/a51f4bbe-392f-42d9-a0d4-033c94286778)  
+    ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/ddec7069-6a23-4387-b5f7-d830bbe7a5ae)
+  
 
 6. Unrestricted Access to Sensitive Buisness Flows:  
    ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/e16ef6cf-8cb3-4274-b558-9e211ac9fa52)  
