@@ -2,13 +2,10 @@
 
 - [Owasp](#vulnerabilities)
 - [Real Word Examples](#examples)
-- [Tools](#tools)
-- [Environment](#environment)
-- [Tests](#tests)
-- [Authentication](#authentication)
-- [File Upload](#file-upload)
+- [3 Pillars of APIsec](#pillars)
+-
 
-3 Vulnerabilites
+# Vulnerabilites
 The OWASP (Open Web Application Security Project) 10 most common API vulnerabilites:
 ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/3babd851-1455-49e1-934b-ecbcf8d6339d)  
 
@@ -54,8 +51,6 @@ The OWASP (Open Web Application Security Project) 10 most common API vulnerabili
 
 
 
-
-
 # Real World examples
 Everything starts from sniffing the traffic!
 ## examples
@@ -76,3 +71,22 @@ Everything starts from sniffing the traffic!
 
 6. Broken function leve Authorization
    From a simple account you are able to use CRUD and change database functions.
+
+# Pillars
+![image](https://github.com/Keeriiim/API_DEV/assets/117115289/1cb4d6c5-b275-46bc-9f90-0051fb5ea7d1)
+
+READ: 
+https://apistylebook.com/design/guidelines/atlassian-rest-api-design-guidelines-version-1#api-lifecycle
+https://developer.atlassian.com/server/framework/atlassian-sdk/atlassian-rest-api-design-guidelines-version-1/
+
+1. Governance
+   ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/901c9375-dc3a-4f30-9b1b-b6a669a301f8)
+   ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/421d4083-233a-49bf-8831-a20d4805dcbd)
+   ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/8806f11f-ccef-489f-a57f-260984a67a10)
+   ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/5062e1a4-05bc-4e75-8507-9a31cb420b57)
+
+
+
+   
+
+
