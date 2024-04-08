@@ -1,6 +1,7 @@
 # API Security
 - Resources:
   [Owasp cheat sheet](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html)
+  [CWE](https://cwe.mitre.org/documents/cwe_usage/guidance.html)
   
 - [Vulnerabilites](#vulnerabilities)
 - [Real Word Examples](#examples)
