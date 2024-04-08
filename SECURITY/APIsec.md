@@ -2,7 +2,8 @@
 - Resources:
   [Owasp cheat sheet](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html)
   [CWE](https://cwe.mitre.org/documents/cwe_usage/guidance.html)  
-  [Automated Threats](https://owasp.org/www-project-automated-threats-to-web-applications/)  
+  [Automated Threats](https://owasp.org/www-project-automated-threats-to-web-applications/)
+  [Injection Flaws](https://owasp.org/www-community/Injection_Flaws)  
   
 - [Vulnerabilites](#vulnerabilities)
 - [Real Word Examples](#examples)
@@ -49,29 +50,46 @@ The OWASP (Open Web Application Security Project) 10 most common API vulnerabili
    Automated scanners: Burp Suite, Nessus, Qualys, OWASP ZAP, and Nikto will automatically check responses from the web server to determine version information, headers, cookies, transit encryption configuration, and parameters to see if expected security measures are missing.  
    ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/2e605ce6-cafb-4431-95a7-4f2972046710)  
    ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/ce48d686-7f14-4638-ad93-fb01318f3f31)  
-
+   ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/f3b4d2a3-95ca-4861-980d-5697bac1d82c)  
    ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/fae1ecc1-4b29-43ce-b210-01bd0ab5cf43)  
    ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/d69d55cf-8433-4f9f-b77f-1ddb56f3286e)  
    ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/8f418ef1-474a-4133-9021-30042e379b07)  
-   ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/cb53cf5f-379f-4799-8c5e-cf19eecd816a)
-
-   
-
-
+   ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/cb53cf5f-379f-4799-8c5e-cf19eecd816a)  
+   ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/f4979444-e05b-4408-96ea-fdd0bf9211e3)  
 
 
   
 
-10. Improper Inventory(Assets) Management: This involves not properly tracking and managing API endpoints and their associated documentation. Attackers can exploit outdated or deprecated APIs that are still active.  
+9. Improper Inventory(Assets) Management: This involves not properly tracking and managing API endpoints and their associated documentation. Attackers can exploit outdated or deprecated APIs that are still active.  
+```bash
+Outdated documentation makes it more difficult to find and/or fix vulnerabilities. Lack of assets inventory and retirement strategies leads to running unpatched systems, resulting in leakage of sensitive data. It's common to find unnecessarily exposed API hosts because of modern concepts like microservices, which make applications easy to deploy and independent (e.g. cloud computing, K8S). Simple Google Dorking, DNS enumeration, or using specialized search engines for various types of servers (webcams, routers, servers, etc.) connected to the internet will be enough to discover targets.  
+Attackers can gain access to sensitive data, or even take over the server. Sometimes different API versions/deployments are connected to the same database with real data. Threat agents may exploit deprecated endpoints available in old API versions to get access to administrative functions or exploit known vulnerabilities.
+```
    ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/834e8a57-be04-4aaa-a0e2-85ea55f0bce6)  
+   ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/64a3829a-ca1a-41ca-9e17-7a1ec65095fb)  
+   ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/0ca306ec-a2d9-42ba-8c05-f3fa5b21b22b)  
+   ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/bd68fea2-4e43-4eba-ad48-579f2e0c096a)  
+   ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/b5386121-9008-4f36-991a-bc4a0d846248)  
+   ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/21444b66-c954-4332-b7fa-c5215be8b94c)
 
-11. Unsafe Consumption of API's:  
+
+
+
+10. Unsafe Consumption of API's:
+    ```bash
+    Developers tend to trust and not verify the endpoints that interact with external or third-party APIs, relying on weaker security requirements such as those regarding transport security, authentication/authorization, and input validation and     sanitization. Attackers need to identify services the target API integrates with (data sources) and, eventually, compromise them.
+    ```
     ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/c26bab72-bdca-4593-a9f1-b0125329e502)  
+    ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/3520c7d4-dc11-44cc-aa3a-e9c97c1b8650)  
+    ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/2eb55f7b-7485-4d2a-9fe0-6fcf1dc70585)
 
-12. Injection: APIs that accept user input without proper validation and sanitization are vulnerable to injection attacks such as SQL injection, NoSQL injection, and command injection.
-13. Improper Inventory(Assets) Management: This involves not properly tracking and managing API endpoints and their associated documentation. Attackers can exploit outdated or deprecated APIs that are still active.
-14. Insufficient Logging & Monitoring: Inadequate logging and monitoring make it difficult to detect unauthorized access or abnormal behavior. This can delay incident response and increase the impact of a successful attack.
-15. Insecure Serialization: APIs that use insecure serialization methods are vulnerable to attacks such as deserialization of untrusted data, leading to remote code execution.
+
+    
+
+14. Injection: APIs that accept user input without proper validation and sanitization are vulnerable to injection attacks such as SQL injection, NoSQL injection, and command injection.
+15. Improper Inventory(Assets) Management: This involves not properly tracking and managing API endpoints and their associated documentation. Attackers can exploit outdated or deprecated APIs that are still active.
+16. Insufficient Logging & Monitoring: Inadequate logging and monitoring make it difficult to detect unauthorized access or abnormal behavior. This can delay incident response and increase the impact of a successful attack.
+17. Insecure Serialization: APIs that use insecure serialization methods are vulnerable to attacks such as deserialization of untrusted data, leading to remote code execution.
 
 
 
