@@ -86,11 +86,17 @@ Attackers can gain access to sensitive data, or even take over the server. Somet
 
     
 
-14. Injection: APIs that accept user input without proper validation and sanitization are vulnerable to injection attacks such as SQL injection, NoSQL injection, and command injection.
-15. Improper Inventory(Assets) Management: This involves not properly tracking and managing API endpoints and their associated documentation. Attackers can exploit outdated or deprecated APIs that are still active.
-16. Insufficient Logging & Monitoring: Inadequate logging and monitoring make it difficult to detect unauthorized access or abnormal behavior. This can delay incident response and increase the impact of a successful attack.
-17. Insecure Serialization: APIs that use insecure serialization methods are vulnerable to attacks such as deserialization of untrusted data, leading to remote code execution.
+11. Injection: APIs that accept user input without proper validation and sanitization are vulnerable to injection attacks such as SQL injection, NoSQL injection, and command injection.  
+    ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/dfb1f909-a3a6-482a-bb29-103b9b857d0f)
 
+12. Insufficient Logging & Monitoring: Inadequate logging and monitoring make it difficult to detect unauthorized access or abnormal behavior. This can delay incident response and increase the impact of a successful attack.  
+    ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/0b870fad-3077-4d18-abb1-8e4440aa9e9d)
+
+13. Insecure Serialization: APIs that use insecure serialization methods are vulnerable to attacks such as deserialization of untrusted data, leading to remote code execution.
+14. Buisness logic flaws:  
+    ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/c27fb2f9-bb99-42c3-8e0e-92ac2a11500f)  
+    ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/aa9a5b41-ff24-491b-b1a9-6b1e1a9f9c8c)  
+    ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/5e7d8c69-d300-4352-81c7-f1cc630d77ba)
 
 
 
