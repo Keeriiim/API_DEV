@@ -8,7 +8,7 @@
 - [Vulnerabilites](#vulnerabilities)
 - [Real Word Examples](#examples)
 - [3 Pillars of APIsec](#pillars)
--
+- [API Gateway](#api-gateway)
 
 # Vulnerabilites
 The OWASP (Open Web Application Security Project) 10 most common API vulnerabilites:  
@@ -227,6 +227,18 @@ https://developer.atlassian.com/server/framework/atlassian-sdk/atlassian-rest-ap
 ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/3a6ddf28-c343-4f2d-849f-d3cf2f683ea3)  
 ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/0ce9cbe1-d091-442b-9c00-94635c5a90b0)  
 ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/90f19013-6180-447a-8eca-4331c199a7e7)  
+
+
+
+# API Gateway
+![image](https://github.com/Keeriiim/API_DEV/assets/117115289/1f61daaf-3962-4187-82e6-f5d8fd0f439f)  
+![image](https://github.com/Keeriiim/API_DEV/assets/117115289/9f15d061-c48e-46da-8e0b-cfdd74f729da)  
+![image](https://github.com/Keeriiim/API_DEV/assets/117115289/7b431042-8909-44e8-850a-9d0596663e7b)  
+![image](https://github.com/Keeriiim/API_DEV/assets/117115289/ed99f47a-bc79-49f7-a020-389dd7dee431)  
+![image](https://github.com/Keeriiim/API_DEV/assets/117115289/053e9985-8361-44db-9e43-da22f0a55634)  
+![image](https://github.com/Keeriiim/API_DEV/assets/117115289/0666a443-07ce-475a-9120-fe60ef09987c)  
+
+
 
 
 
