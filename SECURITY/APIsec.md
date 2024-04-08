@@ -1,6 +1,8 @@
 # API Security
-
-- [Owasp](#vulnerabilities)
+- Resources:
+  [Owasp cheat sheet](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html)
+  
+- [Vulnerabilites](#vulnerabilities)
 - [Real Word Examples](#examples)
 - [3 Pillars of APIsec](#pillars)
 -
@@ -47,6 +49,60 @@ The OWASP (Open Web Application Security Project) 10 most common API vulnerabili
 12. Improper Inventory(Assets) Management: This involves not properly tracking and managing API endpoints and their associated documentation. Attackers can exploit outdated or deprecated APIs that are still active.
 13. Insufficient Logging & Monitoring: Inadequate logging and monitoring make it difficult to detect unauthorized access or abnormal behavior. This can delay incident response and increase the impact of a successful attack.
 14. Insecure Serialization: APIs that use insecure serialization methods are vulnerable to attacks such as deserialization of untrusted data, leading to remote code execution.
+
+
+
+
+
+## Extras:
+1. Weak Password Policy
+![image](https://github.com/Keeriiim/API_DEV/assets/117115289/b63183ce-64e2-44bf-9017-c91a420f42c3)
+
+2.Credential sniffing  
+![image](https://github.com/Keeriiim/API_DEV/assets/117115289/a3660c72-224d-4d21-aa24-cea4beab595e)  
+
+3. Predictable tokens  
+![image](https://github.com/Keeriiim/API_DEV/assets/117115289/5d12988b-6186-41cf-b31a-089261615a80)  
+
+4. Misconfigured JWT
+![image](https://github.com/Keeriiim/API_DEV/assets/117115289/27107e7a-c26f-4d5a-946b-23251993b672)
+
+5. Generall API problems  
+   "The future of digital systems is complexity and complexity is the worst enemy of security"  
+   REST APIs are designed to be stateless, therefor the api provider doesnt remember one request from another. Therefor tokens are created  
+
+![image](https://github.com/Keeriiim/API_DEV/assets/117115289/e9a41986-6017-4b42-9534-c4241adea403)  
+![image](https://github.com/Keeriiim/API_DEV/assets/117115289/574393a8-2875-42c6-9a18-ae29d0c59fd1)  
+![image](https://github.com/Keeriiim/API_DEV/assets/117115289/e6db24fd-a3c4-47f7-818e-2be591ea81f4)  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
