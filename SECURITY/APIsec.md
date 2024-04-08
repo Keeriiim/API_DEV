@@ -85,6 +85,29 @@ https://developer.atlassian.com/server/framework/atlassian-sdk/atlassian-rest-ap
    ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/8806f11f-ccef-489f-a57f-260984a67a10)
    ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/5062e1a4-05bc-4e75-8507-9a31cb420b57)
 
+2. Testing
+   ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/ae3948bb-8ece-49e6-8e31-a3b55238f2f1)
+   ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/8f5b19e3-6710-4526-b4d2-37d690937cd0)
+
+3. Monitoring
+   ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/7d0254ad-ca3b-4b79-9c48-6db70b85cbbf)
+   ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/0ff800dd-1acf-4a59-95da-b43038167778)
+   ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/c5d6053e-3245-4f11-abdb-1b2f93698278)
+
+![image](https://github.com/Keeriiim/API_DEV/assets/117115289/6c75ae43-d7ff-4dcf-be02-485885e31e23)
+
+## Best practices
+![image](https://github.com/Keeriiim/API_DEV/assets/117115289/3a6ddf28-c343-4f2d-849f-d3cf2f683ea3)
+![image](https://github.com/Keeriiim/API_DEV/assets/117115289/0ce9cbe1-d091-442b-9c00-94635c5a90b0)
+![image](https://github.com/Keeriiim/API_DEV/assets/117115289/90f19013-6180-447a-8eca-4331c199a7e7)
+
+
+
+
+
+
+
+
 
 
    
