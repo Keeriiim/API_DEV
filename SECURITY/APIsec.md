@@ -43,10 +43,18 @@ The OWASP (Open Web Application Security Project) 10 most common API vulnerabili
    ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/db0c14bf-4509-4a96-ae72-aadb32cf9823)  
 
 
-7. Server side Request Forgery:  
+7. Server side Request Forgery:
+   ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/a45aff15-147e-472a-9726-852fc8a76d8d)  
    ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/6c78e95f-7707-4792-9359-e56e36c6be55)  
+   ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/b1f75f0b-3af7-483d-ae3e-e4076086fddb)  
+   ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/3c7148b0-5dd0-4ae6-9460-4d0dc13e8308)  
+   ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/db645695-84fa-44f9-a65e-76762d1d5a7d)  
+   ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/8064fc80-fe57-4079-980b-7ce28730a7e7)
+
+
+  
    
-8. Security Misconfiguration: Improperly configured APIs can lead to a range of vulnerabilities. This includes using default settings, leaving debug flags on, or exposing sensitive information through error messages.  
+9. Security Misconfiguration: Improperly configured APIs can lead to a range of vulnerabilities. This includes using default settings, leaving debug flags on, or exposing sensitive information through error messages.  
    Automated scanners: Burp Suite, Nessus, Qualys, OWASP ZAP, and Nikto will automatically check responses from the web server to determine version information, headers, cookies, transit encryption configuration, and parameters to see if expected security measures are missing.  
    ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/2e605ce6-cafb-4431-95a7-4f2972046710)  
    ![image](https://github.com/Keeriiim/API_DEV/assets/117115289/ce48d686-7f14-4638-ad93-fb01318f3f31)  
@@ -60,7 +68,7 @@ The OWASP (Open Web Application Security Project) 10 most common API vulnerabili
 
   
 
-9. Improper Inventory(Assets) Management: This involves not properly tracking and managing API endpoints and their associated documentation. Attackers can exploit outdated or deprecated APIs that are still active.  
+10. Improper Inventory(Assets) Management: This involves not properly tracking and managing API endpoints and their associated documentation. Attackers can exploit outdated or deprecated APIs that are still active.  
 ```bash
 Outdated documentation makes it more difficult to find and/or fix vulnerabilities. Lack of assets inventory and retirement strategies leads to running unpatched systems, resulting in leakage of sensitive data. It's common to find unnecessarily exposed API hosts because of modern concepts like microservices, which make applications easy to deploy and independent (e.g. cloud computing, K8S). Simple Google Dorking, DNS enumeration, or using specialized search engines for various types of servers (webcams, routers, servers, etc.) connected to the internet will be enough to discover targets.  
 Attackers can gain access to sensitive data, or even take over the server. Sometimes different API versions/deployments are connected to the same database with real data. Threat agents may exploit deprecated endpoints available in old API versions to get access to administrative functions or exploit known vulnerabilities.
